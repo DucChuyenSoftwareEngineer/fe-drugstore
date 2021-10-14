@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.modal_header{
+    position: relative;
+    padding: 16px;
+    width: 80%;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+    text-align: center;
+}
+.modal_header::after{
+    content: "";
+    position: absolute;
+    width:60%;
+    right:20%;
+    height: 2px;
+    top:100%;
+    background-color:#428bca;
+}
+
+.modal_header h3 {
+    letter-spacing: -1px;
+    
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;   
+    
+}
+.form_client{
+    margin: auto;
+    width: 80%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 24px;
+}
+.form-group.truee input{
+    border-color: #2ecc71;
+}
+.form-group.falsee input{
+    border-color: #e74c3c;
+} 
+.form-group.falsee i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+} 
+.form-group.truee  i.fa-check-circle{
+    color:#2ecc71;;
+    visibility: visible;
+}
+
+.form-group i {
+
+    position: absolute;
+    top: 60%;
+    visibility: hidden;
+    right: 4%;
+    font-size: 16px;
+}
+.form-group small{
+    position: absolute;
+    visibility: hidden;
+  
+}
+.form-group.falsee small{
+    visibility: visible;
+    color: #e74c3c;
+
+}
+.modallleft{
+    top:-100%s
+}
+
