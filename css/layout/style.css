@@ -1,0 +1,60 @@
+    .page-logo p{
+    
+        margin-top: 22px !important ;
+    color: white;
+    font-weight: 600;
+    margin-left: -8px;
+    font-size: 15px;
+    }
+    .page-logo a:hover{
+        text-decoration: none;
+    }
+    .pull-right option:hover{
+        background-color:#e4e4e4;
+        
+    }
+    .navbar-collapse,.page-header{
+        position: fixed !important;
+    }
+    .page-footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #465460
+    }
+    .Quick{
+        position: relative;
+        top: 16px;
+        font-size: 22px;
+        left: 13px;
+    }
+    .Address{
+      position: relative;
+        top: 4px;
+        font-size: 10px;
+    left: 17px;
+
+    }
+    .GPKD{
+        font-size: 15px;
+    }
+    .top-menu{
+        position: absolute;
+        right: 39px;
+        top: 0px
+    
+    }
+    @media screen and (max-width: 900px) {
+        .top-menu{
+            right: 0;
+        }
+        .page-content{
+            width: 100% !important;
+        }
+        .navbar-collapse{
+            position: static;
+        }
+    }
+    
+
+    
