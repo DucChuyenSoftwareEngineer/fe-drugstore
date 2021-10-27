@@ -1,0 +1,120 @@
+    .page-logo p{
+    
+        margin-top: 22px !important ;
+    color: white;
+    font-weight: 600;
+    margin-left: -8px;
+    font-size: 15px;
+    }
+    .page-logo a:hover{
+        text-decoration: none;
+    }
+    .pull-right option:hover{
+        background-color:#e4e4e4;
+        
+    }
+    .navbar-collapse,.page-header{
+        position: fixed !important;
+    }
+    .page-footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #465460
+    }
+      .ContactInfo{
+         
+          padding-top: 14px;
+          line-height: 11px;
+      } 
+     .Quick{
+
+        font-size: 22px;
+       
+    } 
+    .Address{
+   
+        font-size: 10px;
+   
+
+    }
+    .page-logo{
+      margin-right: 15px;
+    }
+    .GPKD{
+        font-size: 15px;
+    }
+    .top-menu{
+        position: absolute;
+        right: 39px;
+        top: 0px
+    
+    }
+    .detail{
+    position: absolute;
+    left: 26px;
+    top: 21px;
+    padding-right: 15px;
+    }
+    .dashboard-stat .detail .number{
+      padding-top: 0px;
+      text-align: left;
+    }
+    .desc{
+        font-size: 17px !important;
+        text-align:  left !important;
+    }
+    /* check */
+   
+    
+    span.checkbox.switcher label {
+      padding: 0;
+    }
+    span.checkbox.switcher label * {
+      vertical-align: middle;
+    }
+    span.checkbox.switcher label input {
+      display: none;
+    }
+    span.checkbox.switcher label input + .khung {
+      position: relative;
+      display: inline-block;
+      margin-right: 10px;
+      width: 60px;
+      height: 30px;
+      background-color: white;
+      border-radius: 50px !important;
+      border: 1px solid #eee;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    span.checkbox.switcher label input + .khung small {
+      position: absolute;
+      display: block;
+      width: 60%;
+      height: 100%;
+      background-color: #c1c1c1;
+      border-radius: 50% ;
+      transition: all 0.3s ease-in-out;
+      left: 0;
+    }
+    span.checkbox.switcher label input:checked + .khung small {
+      background-color: cornflowerblue;
+      border-color: cornflowerblue;
+      left: 40%;
+    }
+
+    @media screen and (max-width: 900px) {
+        .top-menu{
+            right: 0;
+        }
+        .page-content{
+            width: 100% !important;
+        }
+        .navbar-collapse{
+            position: static;
+        }
+    }
+     
+
+    
