@@ -4130,7 +4130,11 @@ Metro icons
   margin-top: 3px;
   line-height: 14px;
   vertical-align: top;
+<<<<<<< HEAD
  
+=======
+  background-image: url(../img/syncfusion-icons.png);
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -4141,7 +4145,11 @@ Metro icons
   height: 30px;
   margin: 6px;
   vertical-align: middle;
+<<<<<<< HEAD
  
+=======
+  background-image: url(../img/syncfusion-icons.png);
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
   background-position: 0 0px;
   background-repeat: no-repeat;
 }
@@ -4177,7 +4185,13 @@ Metro icons
 }
 
 /* white icon */
+<<<<<<< HEAD
 
+=======
+.m-icon-white {
+  background-image: url(../img/syncfusion-icons-white.png);
+}
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
 
 /*  Misc */
 .m-icon-swapright {

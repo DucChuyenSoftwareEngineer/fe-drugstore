@@ -22,6 +22,7 @@
         width: 100%;
         background: #465460
     }
+<<<<<<< HEAD
       .ContactInfo{
          
           padding-top: 14px;
@@ -41,6 +42,21 @@
     .page-logo{
       margin-right: 15px;
     }
+=======
+    .Quick{
+        position: relative;
+        top: 16px;
+        font-size: 22px;
+        left: 13px;
+    }
+    .Address{
+      position: relative;
+        top: 4px;
+        font-size: 10px;
+    left: 17px;
+
+    }
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
     .GPKD{
         font-size: 15px;
     }
@@ -50,6 +66,7 @@
         top: 0px
     
     }
+<<<<<<< HEAD
     .detail{
     position: absolute;
     left: 26px;
@@ -104,6 +121,8 @@
       left: 40%;
     }
 
+=======
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
     @media screen and (max-width: 900px) {
         .top-menu{
             right: 0;
@@ -115,6 +134,10 @@
             position: static;
         }
     }
+<<<<<<< HEAD
      
+=======
+    
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
 
     
