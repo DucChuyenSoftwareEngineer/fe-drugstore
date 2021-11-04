@@ -22,17 +22,13 @@
         width: 100%;
         background: #465460
     }
-<<<<<<< HEAD
-      .ContactInfo{
+
+      .contact{
          
           padding-top: 14px;
           line-height: 11px;
       } 
-     .Quick{
-
-        font-size: 22px;
-       
-    } 
+    
     .Address{
    
         font-size: 10px;
@@ -42,21 +38,19 @@
     .page-logo{
       margin-right: 15px;
     }
-=======
+
     .Quick{
-        position: relative;
-        top: 16px;
+        
         font-size: 22px;
-        left: 13px;
+      
     }
     .Address{
       position: relative;
-        top: 4px;
-        font-size: 10px;
-    left: 17px;
+      top: 3px;
+      font-size: 10px;
+      left: 4px;
 
     }
->>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
     .GPKD{
         font-size: 15px;
     }
@@ -66,63 +60,66 @@
         top: 0px
     
     }
-<<<<<<< HEAD
-    .detail{
-    position: absolute;
-    left: 26px;
-    top: 21px;
-    padding-right: 15px;
+    .dashboard-stat .details{
+        left: 30px !important;
     }
-    .dashboard-stat .detail .number{
-      padding-top: 0px;
-      text-align: left;
+    .dashboard-stat .details .number,.dashboard-stat .details .desc{
+        text-align: left;
     }
-    .desc{
-        font-size: 17px !important;
-        text-align:  left !important;
+    .dashboard-stat .details .desc{
+        font-size: 17px;
     }
-    /* check */
-   
-    
-    span.checkbox.switcher label {
-      padding: 0;
-    }
-    span.checkbox.switcher label * {
-      vertical-align: middle;
-    }
-    span.checkbox.switcher label input {
-      display: none;
-    }
-    span.checkbox.switcher label input + .khung {
-      position: relative;
-      display: inline-block;
-      margin-right: 10px;
-      width: 60px;
-      height: 30px;
-      background-color: white;
-      border-radius: 50px !important;
-      border: 1px solid #eee;
-      transition: all 0.3s ease-in-out;
-      cursor: pointer;
-    }
-    span.checkbox.switcher label input + .khung small {
-      position: absolute;
-      display: block;
-      width: 60%;
-      height: 100%;
-      background-color: #c1c1c1;
-      border-radius: 50% ;
-      transition: all 0.3s ease-in-out;
-      left: 0;
-    }
-    span.checkbox.switcher label input:checked + .khung small {
-      background-color: cornflowerblue;
-      border-color: cornflowerblue;
-      left: 40%;
+    .number p{
+        font-size: 18px;
     }
 
-=======
->>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
+    .more{
+        float: right;
+        padding: 6px 0px 6px 10px !important ;    
+    }
+    /* check log */
+    .onclick{
+        margin: auto;
+        width: 50%;
+    }
+    
+      .onclick.checkbox.switcher label {
+        padding: 0;
+      }
+      .onclick.checkbox.switcher label * {
+        vertical-align: middle;
+      }
+      .onclick.checkbox.switcher label input {
+        display: none;
+      }
+      .onclick.checkbox.switcher label input + span {
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+        width: 45px;
+        height: 25px;
+        background-color: white;
+        border-radius: 50px !important;
+        border: 1px solid #eee;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      .onclick.checkbox.switcher label input + span small {
+        position: absolute;
+        display: block;
+        width: 60%;
+        height: 100%;
+        background-color: #c1c1c1;
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+        left: 0;
+      }
+      .onclick.checkbox.switcher label input:checked + span small {
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+        left: 40%;
+      }
+    
     @media screen and (max-width: 900px) {
         .top-menu{
             right: 0;
@@ -134,10 +131,6 @@
             position: static;
         }
     }
-<<<<<<< HEAD
-     
-=======
-    
->>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
+
 
     
