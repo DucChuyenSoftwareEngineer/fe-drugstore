@@ -1,6 +1,5 @@
     .page-logo p{
-    
-        margin-top: 22px !important ;
+    margin-top: 22px !important ;
     color: white;
     font-weight: 600;
     margin-left: -8px;
@@ -35,17 +34,26 @@
    
 
     }
+    .page-sidebar{
+        z-index: 2;
+    }
     .page-logo{
       margin-right: 15px;
     }
+    .top-menu{
+   position: absolute;
+    right: 39px;
+    top: 9%;
+    z-index: 100;
 
+    }
     .Quick{
         
         font-size: 22px;
       
     }
     .Address{
-      position: relative;
+      position: relatives;
       top: 3px;
       font-size: 10px;
       left: 4px;
@@ -54,12 +62,7 @@
     .GPKD{
         font-size: 15px;
     }
-    .top-menu{
-        position: absolute;
-        right: 39px;
-        top: 0px
     
-    }
     .dashboard-stat .details{
         left: 30px !important;
     }
@@ -76,6 +79,67 @@
     .more{
         float: right;
         padding: 6px 0px 6px 10px !important ;    
+    }
+    .font-white{
+        background: white;
+        
+    }
+    .tabbable-line > .nav-tabs > li.active {
+        border-bottom: 4px solid rgb(77, 179, 162);
+    }
+    .statistic-p{
+        padding: 30px;
+    padding-top: 0;
+    padding-bottom: 19px;
+
+    }
+    .page-bar .page-breadcrumb {
+       padding: 20px 6px;
+ 
+    }
+    .page-bar .page-breadcrumb > li > i {
+  
+        font-size: 19px;
+        
+    }
+    .page-bar .page-breadcrumb > li > a, .page-bar .page-breadcrumb > li > span {
+       
+        font-size: 15px;
+       
+    }
+    .portlet {
+       margin-bottom: 15px;
+    }
+    .hold-on-click{
+        cursor: pointer !important;
+    }
+    .statistic-letter{
+        font-size: 16px;
+    }
+    .statistic-r{
+        height: 140px;
+        background: white;
+        display: flex;
+        align-items: center;
+    }
+    .statistic{ 
+        align-items: center;
+      
+        width: 100%;
+        display: flex;}
+    .statistic-img{
+        width: 38%;
+    }
+    .statistic .revenue{
+         color: #938f8f;;
+    }
+    .btn-group{
+        z-index: 2;
+    }
+    
+
+    img{
+        width: 100%;
     }
     /* check log */
     .onclick{
@@ -132,5 +196,14 @@
         }
     }
 
-
+ 
+    @media screen and (max-width: 720px) {
+       
+       .page-sidebar{
+            position: fixed;
+        }
+    }
     
+
+
+   
