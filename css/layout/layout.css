@@ -182,7 +182,11 @@ Page Header
   display: none;
   float: right;
   margin: 24px 14px 0 6px;
+<<<<<<< HEAD
+ 
+=======
   background-image: url(../img/sidebar-toggler-inverse.png);
+>>>>>>> 8a5414f0b9950037a909b01154973f4e887b229a
 }
 .page-header.navbar .page-actions {
   margin: 17px 0 15px 15px;
@@ -734,7 +738,7 @@ Page Header
     padding: 24px 6px 24px 6px;
   }
   .page-header.navbar .menu-toggler.responsive-toggler {
-    background-image: url(../img/sidebar-toggler.png);
+    background-image: url(../../img/sidebar-toggler.png);
   }
   .page-header.navbar .search-form {
     margin-left: -12px;

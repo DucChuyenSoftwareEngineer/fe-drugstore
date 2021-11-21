@@ -1,12 +1,29 @@
-.scroll{
 
-    height: 339px;
-    overflow-y: auto;
-    padding-right: 3px; 
+.tableHeader{
+    overflow: auto; 
+    height: 350px; 
 }
 
+.tableHeader  table  thead tr{
+    position: sticky; 
+    top: 0; 
+    z-index: 1;
+    background-color: #857b7b ;
 
-.scroll::-webkit-scrollbar {
+}
+
+.tableHeader  table  thead tr th{
+    color: white;
+}
+
+.page-footer{
+    z-index: 2;
+}
+.subject,.message{
+    margin-left: 0px !important;
+}
+
+.tableHeader::-webkit-scrollbar {
   
     width: 7px;
     height: 6px;
@@ -16,12 +33,13 @@
     background-color: white;
     
 }
-.scroll::-webkit-scrollbar-thumb {
+.tableHeader::-webkit-scrollbar-thumb {
     background-color:#e4e4e4;
 }
-.scroll::-webkit-scrollbar-thumb {
+.tableHeader::-webkit-scrollbar-thumb {
      
 }
+<<<<<<< HEAD
 table.dataTable thead .sorting:after,
 table.dataTable thead .sorting:before,
 table.dataTable thead .sorting_asc:after,
@@ -34,3 +52,5 @@ table.dataTable thead .sorting_desc_disabled:after,
 table.dataTable thead .sorting_desc_disabled:before {
   bottom: .5em;
 }
+=======
+>>>>>>> ebc61468f98cd934f2be5e7bca927de1e92a8eec

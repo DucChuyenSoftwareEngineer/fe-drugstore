@@ -95,11 +95,11 @@ var Metronic = function() {
             e.preventDefault();
             var portlet = $(this).closest(".portlet");
 
-            if ($('body').hasClass('page-portlet-fullscreen')) {
-                $('body').removeClass('page-portlet-fullscreen');
+            if ($('body').hasClass('page-portlet-')) {
+                $('body').removeClass('page-portlet-');
             }
 
-            portlet.find('.portlet-title .fullscreen').tooltip('destroy');
+            portlet.find('.portlet-title .').tooltip('destroy');
             portlet.find('.portlet-title > .tools > .reload').tooltip('destroy');
             portlet.find('.portlet-title > .tools > .remove').tooltip('destroy');
             portlet.find('.portlet-title > .tools > .config').tooltip('destroy');
@@ -108,15 +108,15 @@ var Metronic = function() {
             portlet.remove();
         });
 
-        // handle portlet fullscreen
-        $('body').on('click', '.portlet > .portlet-title .fullscreen', function(e) {
+        // handle portlet 
+        $('body').on('click', '.portlet > .portlet-title .', function(e) {
             e.preventDefault();
             var portlet = $(this).closest(".portlet");
             console.log(portlet);
-            if (portlet.hasClass('portlet-fullscreen')) {
+            if (portlet.hasClass('portlet-')) {
                 $(this).removeClass('on');
-                portlet.removeClass('portlet-fullscreen');
-                $('body').removeClass('page-portlet-fullscreen');
+                portlet.removeClass('portlet-');
+                $('body').removeClass('page-portlet-');
                 portlet.children('.portlet-body').css('height', 'auto');
             } else {
                 var height = Metronic.getViewPort().height -
@@ -125,8 +125,8 @@ var Metronic = function() {
                     parseInt(portlet.children('.portlet-body').css('padding-bottom'));
 
                 $(this).addClass('on');
-                portlet.addClass('portlet-fullscreen');
-                $('body').addClass('page-portlet-fullscreen');
+                portlet.addClass('portlet-');
+                $('body').addClass('page-portlet-');
                 portlet.children('.portlet-body').css('height', height);
             }
         });
@@ -389,9 +389,9 @@ var Metronic = function() {
         $('.tooltips').tooltip();
 
         // portlet tooltips
-        $('.portlet > .portlet-title .fullscreen').tooltip({
+        $('.portlet > .portlet-title .').tooltip({
             container: 'body',
-            title: 'Fullscreen'
+            title: ''
         });
         $('.portlet > .portlet-title > .tools > .reload').tooltip({
             container: 'body',
