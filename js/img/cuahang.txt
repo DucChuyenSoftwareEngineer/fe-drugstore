@@ -1,0 +1,19 @@
+tao thêm cột cho số thứ tự
+kho 
+phiếu nhập kho:
+tồn kho:
+lấy tất cả loại thuốc số lượng:
+mã thuốc tên thuốc sl hạnsửdụng 
+trang chủ:
+trang phân que
+phân hê bán hàng 
+phân hệ kho
+phân tài chính
+phân hệ quản lý nhân viên 
+khi nhấn vào bán hàng xuất hiện những cái menu con
+quản lý nhân viên
+danh sách nhân viên 
+chấm công nhân viên
+
+
+
