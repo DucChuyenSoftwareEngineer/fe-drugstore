@@ -1,6 +1,6 @@
 <ul class="page-sidebar-menu page-sidebar-menu-hover-submenu " style="margin-top: -17px;" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
 					<li class="start active ">
-						<a href="index.html">
+						<a href="index.php">
 						<i class="icon-home"></i>
 						<span class="title">Trang Chủ</span>
 						<span class="selected"></span>
@@ -30,17 +30,17 @@
 						</a>
 						<ul class="sub-menu">
 							<li>
-								<a href="order.html">
+								<a href="order.php">
 								  Hóa Đơn
 							    </a>
 							</li>
 							<li>
-								<a href="doanhthu.html">
+								<a href="doanhthu.php">
 				
 								Doanh Thu Hóa Đơn Theo Ngày</a>
 							</li>
 							<li>
-								<a href="doanhthu1.html">
+								<a href="doanhthu1.php">
 	
 								Doanh Thu Hóa Đơn Theo Tháng</a>
 							</li>
@@ -49,7 +49,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="Kho.html">
+						<a href="Kho.php">
 							<i class="icon-book-open"></i>
 						<span class="title">Kho </span>
 						<span class="arrow "></span>
@@ -61,12 +61,12 @@
 							    </a>
 							</li>
 							<li>
-								<a href="doanhthu.html">
+								<a href="doanhthu.php">
 				
 								Thông Kê </a>
 							</li>
 							<li>
-								<a href="doanhthu1.html">
+								<a href="doanhthu1.php">
 	
 								Phiếu Dăt Hàng</a>
 							</li>
